@@ -8,6 +8,7 @@ Labs
 
 * [Lab 1](l01) (programs, dynamic libraries)
 * [Lab 2](l02) (CopyCat)
+* [Lab 3](l03) (PipeWatch)
 
 Assignments
 -----------
