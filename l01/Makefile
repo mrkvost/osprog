@@ -6,10 +6,10 @@ program:
 	gcc -o program program.o -lnumber -L${PWD}
 
 clean:
-	rm *.o
+	@rm *.o
 
 distclean:
-	rm program *.so *.o
+	@rm program *.so *.o
 
 test:
-	LD_LIBRARY_PATH=${PWD} ./program
+	@a=$$(LD_LIBRARY_PATH=${PWD} ./program) || echo $$?
