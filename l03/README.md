@@ -112,8 +112,9 @@ and the output buffer might fill up).
 fd_set readFds; // define the set of fds that will be watched for reading
 int maxFd = 0; // select needs to know the highest fd we use, see manual
 
+FD_ZERO(&readFds);
 for (/* fd in fds we are interested in reading from */) {
-	maxfd = fd + 1;
+	if (fd + 1 > maxfd) maxfd = fd + 1;
 	FD_SET(fd, &readFds); // set the fd
 }
 
