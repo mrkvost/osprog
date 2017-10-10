@@ -2,7 +2,7 @@ Lab 2
 =====
 
 Submit the solution to [CopyCat](#copycat) task according to the
-[Submitting instructions](#submitting) before Tuesday Sep 10 23:59:59.
+[Submitting instructions](#submitting) before Tuesday Oct 10 23:59:59.
 
 
 
